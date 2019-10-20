@@ -1,0 +1,2 @@
+# LearningPython
+My grad class on Computational Thinking requires me to learn Python within less than a week to complete three assignments: 1. Use Python to make change for a dollar. The program should ask the user how much money they are handing the "computer."  2. Use Python to make change in paper currency under $100. The computer should report out the least amount of bills (using a greedy algorithm works for our currency).  3. I really love the musical Hamilton. Use Python to maximize the amount of $20s the computer gives back to me. Here I go!
