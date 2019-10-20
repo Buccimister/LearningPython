@@ -1,0 +1,14 @@
+print('The cost is one USD')
+input_string_var = input('How much are you providing?')
+def num_coins(cents):
+    coins = (25, 10, 5, 1)
+    cents = (1, 5, 10, 25)
+onePenny == 1
+oneNickel= onePenney*5
+oneDime=onePenny*10
+oneQuarter=onePenny*25
+input / 25
+
+int = input ( )
+
+print( 'Your change is')
