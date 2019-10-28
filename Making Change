@@ -1,14 +1,57 @@
-print('The cost is one USD')
-input_string_var = input('How much are you providing?')
-input()
+#For Dollar change
+Dollars_Entered= float(input('The cost is one USD. Please enter an amount:'))
+print(Dollars_Entered//.50, "Fifty Cent")
+Dollars_Entered = Dollars_Entered% .50
 
+print(Dollars_Entered//.25, "Quarters")
+Dollars_Entered = Dollars_Entered% .25
 
-def num_cash(dollars):
-    dollars = (100, 50, 20, 10, 5, 1)
+print(Dollars_Entered//.10, "Dimes")
+Dollars_Entered = Dollars_Entered %.10
 
-if int < 1:
-    print('You must provide payment or there will be consequences')
-    
-int = input()
+print(Dollars_Entered//.05, "Nickels")
+Dollars_Entered = Dollars_Entered %.05
 
-print('Your change is')
+print(Dollars_Entered//.01, "Penny")
+Dollars_Entered = Dollars_Entered %.01
+
+#For Paper Currency
+Dollars_Entered=int(input('The cost is one USD. Please enter an amount:'))
+print(Dollars_Entered//20, "Twenty")
+Dollars_Entered = Dollars_Entered %20
+
+print(Dollars_Entered//100, "Hundred")
+Dollars_Entered = Dollars_Entered% 100
+
+print(Dollars_Entered//50, "Fifty")
+Dollars_Entered = Dollars_Entered% 50
+
+print(Dollars_Entered//10, "Ten")
+Dollars_Entered = Dollars_Entered %10
+
+print(Dollars_Entered//5, "Five")
+Dollars_Entered = Dollars_Entered %5
+
+print(Dollars_Entered//1, "One")
+Dollars_Entered = Dollars_Entered %1
+
+#For Paper Currency
+Dollars_Entered=int(input('The cost is one USD. Please enter an amount:'))
+print(Dollars_Entered//100, "Hundred")
+Dollars_Entered = Dollars_Entered% 100
+
+print(Dollars_Entered//50, "Fifty")
+Dollars_Entered = Dollars_Entered% 50
+
+print(Dollars_Entered//20, "Twenty")
+
+Dollars_Entered = Dollars_Entered %20
+
+print(Dollars_Entered//10, "Ten")
+Dollars_Entered = Dollars_Entered %10
+
+print(Dollars_Entered//5, "Five")
+Dollars_Entered = Dollars_Entered %5
+
+print(Dollars_Entered//1, "One")
+Dollars_Entered = Dollars_Entered %1
